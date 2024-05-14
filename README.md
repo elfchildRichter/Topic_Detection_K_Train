@@ -23,9 +23,10 @@ randomly sample 5% from the dataset
 
 <br>
 <img src='pic/roc_reduced.png' width=350> <br>
-<img src='pic/cm_distilbert_base_uncased.png' width=200>
-<img src='pic/cm_bert_base_uncased.png' width=200>
-<img src='pic/cm_roberta_base.png' width=200>
+
+| | | |
+| --- | --- | --- |
+| <img src='pic/cm_distilbert_base_uncased.png' width=200>| <img src='pic/cm_bert_base_uncased.png' width=200>| <img src='pic/cm_roberta_base.png' width=200>|
 
 <br>
 
@@ -41,9 +42,10 @@ randomly sample 2000 samples from each category
 
 <br>
 <img src='pic/roc_balanced.png' width=350> <br>
-<img src='pic/cm_distilbert.png' width=200>
-<img src='pic/cm_bert.png' width=200>
-<img src='pic/cm_bigru.png' width=200>
+
+||||
+|---|---|---|
+|<img src='pic/cm_distilbert.png' width=200>|<img src='pic/cm_bert.png' width=200>|<img src='pic/cm_bigru.png' width=200>|
 
 <br><br>
 
