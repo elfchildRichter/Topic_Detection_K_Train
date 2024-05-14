@@ -5,7 +5,7 @@ DTSA 5798 Supervised Text Classification for Marketing Analytics<br>
 
 Contextual advertising is an important aspect of digital advertising. This allows advertisers to advertise on web pages that match specific types of content.
 
-This dataset contains around 200k news headlines from the year 2012 to 2018 obtained from [HuffpPost](https://www.huffpost.com). Each news headline has a corresponding category, totaling 41 categories.
+This dataset contains around 200k news headlines from the year 2012 to 2018 obtained from [HuffpPost](https://www.huffpost.com) and [News Category Dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset). Each news headline has a corresponding category, totaling 41 categories.
 
 The task is to detect the categories "WELLNESS" and "HEALTHY LIVING", which together account for about 12.2% of the total dataset.
 
@@ -22,7 +22,7 @@ randomly sample 5% from the dataset
 | roberta-base            | 0.98          | 0.95       | 0.97         | 1749        | 0.74          | 0.86       | 0.79         | 260         | 0.94     | 0.86                 | 0.91              | 0.88                | 0.95                   | 0.94                | 0.94                 |
 
 <br>
-<img src='pic/roc_reduced.png' width=350> <br>
+<img src='pic/roc_reduced.png' width=350> 
 
 <div style="display: grid; grid-template-columns: auto auto auto; justify-content: start; grid-gap: 6px;">
     <img src="pic/cm_distilbert_base_uncased.png" width="200">
@@ -43,7 +43,7 @@ randomly sample 2000 samples from each category
 | bigru    | 0.79          | 0.81       | 0.80         | 182         | 0.84          | 0.82       | 0.83         | 218         | 0.82     | 0.82                 | 0.82              | 0.82                | 0.82                   | 0.82                | 0.82                 |
 
 <br>
-<img src='pic/roc_balanced.png' width=350> <br>
+<img src='pic/roc_balanced.png' width=350>
 
 <div style="display: grid; grid-template-columns: auto auto auto; justify-content: start; grid-gap: 6px;">
     <img src="pic/cm_distilbert.png" width="200">
@@ -51,9 +51,3 @@ randomly sample 2000 samples from each category
     <img src="pic/cm_bigru.png" width="200">
 </div>
 
-
-<br><br>
-
-
-data from [News Category Dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset), [huffpost](https://www.huffpost.com)<br>
-notebook from [repo](https://github.com/elfchildRichter/dtsa5798_topic_detection_k_train)<br>
