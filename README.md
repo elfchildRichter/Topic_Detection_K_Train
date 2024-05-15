@@ -51,3 +51,10 @@ randomly sample 2000 samples from each category
     <img src="pic/cm_bigru.png" width="200">
 </div>
 
+<br>
+
+### Test Texts
+
+<img src='pic/positive_text_1.png' width=600>
+<img src='pic/positive_text_2.png' width=600>
+<img src='pic/negative_text_1.png' width=600>
