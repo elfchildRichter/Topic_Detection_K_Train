@@ -1,5 +1,5 @@
-CU Boulder MSDS course work<br>
-DTSA 5798 Supervised Text Classification for Marketing Analytics<br>
+CU Boulder MSDS DTSA 5798<br>
+Supervised Text Classification for Marketing Analytics<br>
 
 ## Topic Detection using k-Train
 
